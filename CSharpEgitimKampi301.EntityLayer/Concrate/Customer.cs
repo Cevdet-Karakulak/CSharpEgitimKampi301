@@ -14,5 +14,6 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrate
         public string CustomerDistirct { get; set; }
         public string CustomerCity { get; set; }
         public List<Order> Orders { get; set; }
+        public bool CustomerStatus { get; set; }
     }
 }
