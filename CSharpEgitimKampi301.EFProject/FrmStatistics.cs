@@ -22,7 +22,7 @@ namespace CSharpEgitimKampi301.EFProject
             lblLocationCountry.Text = db.Location.Count().ToString();
             lblSumCapacity.Text=db.Location.Sum(x=>x.Capacity).ToString();
             lblGuideCount.Text=db.Guide.Count().ToString();
-            lblAvgCapacity.Text=db.Location.Average(x=>x.Capacity).ToString();
+            lblAvgCapacity.Text= $"{db.Location.Average(x => x.Capacity):F2}".ToString();
             decimal avgLocationPrice = decimal.Parse(db.Location.Average(x => x.Price).ToString());
             lblAvgLocationPrice.Text = avgLocationPrice.ToString("0.00") + " ₺";
             int lastcountryId=db.Location.Max(x=>x.LocationId);

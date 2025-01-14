@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.lblLocationCountry = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblSumCapacity = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -88,16 +88,6 @@
             this.panel1.Size = new System.Drawing.Size(177, 91);
             this.panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(30, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Lokasyon Sayısı";
-            // 
             // lblLocationCountry
             // 
             this.lblLocationCountry.AutoSize = true;
@@ -107,6 +97,16 @@
             this.lblLocationCountry.Size = new System.Drawing.Size(37, 29);
             this.lblLocationCountry.TabIndex = 1;
             this.lblLocationCountry.Text = "00";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(30, 11);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(110, 19);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Lokasyon Sayısı";
             // 
             // panel2
             // 
@@ -152,7 +152,7 @@
             // 
             this.lblAvgCapacity.AutoSize = true;
             this.lblAvgCapacity.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblAvgCapacity.Location = new System.Drawing.Point(17, 41);
+            this.lblAvgCapacity.Location = new System.Drawing.Point(67, 41);
             this.lblAvgCapacity.Name = "lblAvgCapacity";
             this.lblAvgCapacity.Size = new System.Drawing.Size(37, 29);
             this.lblAvgCapacity.TabIndex = 1;
@@ -362,7 +362,7 @@
             // 
             this.lblMostExpensiveTour.AutoSize = true;
             this.lblMostExpensiveTour.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblMostExpensiveTour.Location = new System.Drawing.Point(46, 41);
+            this.lblMostExpensiveTour.Location = new System.Drawing.Point(28, 41);
             this.lblMostExpensiveTour.Name = "lblMostExpensiveTour";
             this.lblMostExpensiveTour.Size = new System.Drawing.Size(37, 29);
             this.lblMostExpensiveTour.TabIndex = 1;
@@ -372,7 +372,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label20.Location = new System.Drawing.Point(47, 8);
+            this.label20.Location = new System.Drawing.Point(42, 8);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(93, 19);
             this.label20.TabIndex = 0;
