@@ -22,6 +22,7 @@ Bu derste, "Tur Projesi"nin Location tablosu üzerinde CRUD işlemleri gerçekle
 
 ## 📊 Ders 17: Entity Framework ve LINQ Sorguları
 LINQ sorguları ile veritabanındaki veriler üzerinde istatistiksel analizler gerçekleştirdik. Form uygulaması üzerinden filtreleme ve veri listeleme işlemlerini uygulamalı şekilde öğrendik.
+![Ekran görüntüsü 2025-01-14 142611](https://github.com/user-attachments/assets/e0549078-8647-4557-a87c-cd7881265df2)
 
 ## 📃 Ders 18: EntityState Komutları ve Generic Repository Yapısı
 Data Access Katmanı'nda Generic Repository yapısını inşa ettik. Bu yapı sayesinde Entity Framework sınıflarıyla veri erişim işlemlerini merkezi bir hale getirdik. Ayrıca, EntityState komutları kullanarak CRUD işlemlerini daha verimli bir şekilde gerçekleştirdik.
