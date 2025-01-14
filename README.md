@@ -1,4 +1,4 @@
-# 🏕️ C# Eğitim Kampı 301: Yazılım Dünyasına Yolculuk
+# 🏕️ C# Eğitim Kampı 301
 👋 Merhaba, ben Cevdet😊 Bu repository, Murat Yücedağ'ın C# Eğitim Kampı serisinin 301. modülü kapsamında yapılan çalışmaları ve projeleri içermektedir. OOP ve ORM yapıları temel alınarak oluşturulan bu içerikler, yazılım dünyasında kendimi geliştirmemi ve orta seviyeye adım atmamı sağladı. Şimdi, bu yolculukta öğrendiklerimi sizinle paylaşıyorum.
 
 ## 🎯 Proje ve Ders İçerikleri
