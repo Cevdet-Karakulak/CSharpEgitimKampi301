@@ -1,4 +1,5 @@
 ﻿using CSharpEgitimKampi301.DataAccessLayer.Abstract;
+using CSharpEgitimKampi301.DataAccessLayer.Context;
 using CSharpEgitimKampi301.DataAccessLayer.Repositories;
 using CSharpEgitimKampi301.EntityLayer.Concrate;
 using System;
@@ -11,5 +12,20 @@ namespace CSharpEgitimKampi301.DataAccessLayer.EntityFramework
 {
     public class EfProductDal : GenericRepository<Product>, IProductDal
     {
+        public List<Object> GetProductsWithCategory()
+        {
+            var context=new KampContext();
+            var values=context.Products.Select(x=>new 
+            {
+                ProductId = x.ProductId,
+                ProductName = x.ProductName,
+                ProductStock = x.ProductStock,
+                ProductDescription = x.ProductDescription,
+                ProductPrice = x.ProductPrice,
+                CategoryName=x.Category.CategoryName
+            }).ToList();
+
+            return values.Cast<object>().ToList();
+        }
     }
 }

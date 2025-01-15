@@ -65,5 +65,6 @@ namespace CSharpEgitimKampi301.PresentationLayer
             _categoryService.TUpdate(updatedValue);
             MessageBox.Show("Güncelleme Başarılı");
         }
+      
     }
 }
